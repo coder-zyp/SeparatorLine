@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SeparatorLine"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "Only one line of code, quick to add a line in the view."
 
   # This description is used to generate tags and improve search results.
