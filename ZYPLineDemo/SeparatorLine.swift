@@ -140,7 +140,8 @@ extension UIView {
             self.position = position
             self.superView = superView
             self.snp.makeConstraints { (make) in
-
+ 
+                
                 switch (position){
                 case .top:
                     make.top.equalToSuperview()
