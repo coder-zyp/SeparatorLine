@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SeparatorLine"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Only one line of code, quick to add a line in the view."
 
   # This description is used to generate tags and improve search results.
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/coder-zyp/SeparatorLine.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/coder-zyp/SeparatorLine.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -86,8 +86,8 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "SeparatorLine.swift"
+  s.source_files  = "SeparatorLine/*.swift"
+  #s.source_files  = "SeparatorLine.swift"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
