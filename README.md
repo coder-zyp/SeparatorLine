@@ -1,2 +1,3 @@
 # SeparatorLine
-Only one line of code, quick to add a line in the view
+
+一行代码可以让你的视图加一条分割线， 可以是类似于tableView的separator ，也可以另做用途
