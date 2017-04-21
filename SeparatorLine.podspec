@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SeparatorLine"
-  s.version      = "0.0.2"
+  s.version      = “0.0.3”
   s.summary      = "Only one line of code, quick to add a line in the view."
 
   s.homepage     = "https://github.com/coder-zyp"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/coder-zyp/SeparatorLine.git", :tag => s.version }
 
 
-  s.source_files  = "demo/ZYPLineDemo/SeparatorLine.swift"
+  s.source_files  = "SeparatorLine/SeparatorLine.swift"
 
 
   s.dependency "SnapKit", "~> 3.2.0"
