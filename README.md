@@ -20,8 +20,9 @@ end
 ```swift
 _ = view.separator(position: .top)
 ```
-#### Example:
+
 ```swift
+//对应上面图片
 let whiteView = view.separator(position: .bottom).width(width: 500).color(color: .white)
 let greenView = whiteView.separator(position: .right).width(width: 10).color(color: .green).space(space: 10)
 let redView = whiteView.separator(position: .right).color(color: .red).spaceToView(view: greenView, space: 10)
