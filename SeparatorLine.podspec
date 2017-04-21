@@ -17,16 +17,11 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "coder-zyp" => "coder_zyp@163.com" }
+  s.author       = { "coder-zyp" => "coder_zyp@163.com" }
   s.platform     = :ios
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/coder-zyp/SeparatorLine.git", :tag => s.version }
-
-
   s.source_files  = "SeparatorLine/SeparatorLine.swift"
-
-
- #s.dependency "SnapKit", "~> 3.2.0"
 
 end
