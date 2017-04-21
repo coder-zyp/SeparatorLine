@@ -14,7 +14,7 @@
 		436F40641EA98B0F00FA5ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436F40621EA98B0F00FA5ACD /* LaunchScreen.storyboard */; };
 		436F406F1EA98B1000FA5ACD /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F406E1EA98B1000FA5ACD /* demoTests.swift */; };
 		436F407A1EA98B1000FA5ACD /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F40791EA98B1000FA5ACD /* demoUITests.swift */; };
-		436F40891EA98B5000FA5ACD /* SeparatorLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F40881EA98B5000FA5ACD /* SeparatorLine.swift */; };
+		436F40C91EA997A100FA5ACD /* SeparatorLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F40C81EA997A100FA5ACD /* SeparatorLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		436F40751EA98B1000FA5ACD /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436F40791EA98B1000FA5ACD /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		436F407B1EA98B1000FA5ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		436F40881EA98B5000FA5ACD /* SeparatorLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorLine.swift; sourceTree = "<group>"; };
+		436F40C81EA997A100FA5ACD /* SeparatorLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeparatorLine.swift; path = ../../SeparatorLine/SeparatorLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		436F40581EA98B0F00FA5ACD /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				436F40871EA98B1E00FA5ACD /* SeparatorLine */,
+				436F40C81EA997A100FA5ACD /* SeparatorLine.swift */,
 				436F40591EA98B0F00FA5ACD /* AppDelegate.swift */,
 				436F405B1EA98B0F00FA5ACD /* ViewController.swift */,
 				436F405D1EA98B0F00FA5ACD /* Main.storyboard */,
@@ -126,14 +126,6 @@
 				436F407B1EA98B1000FA5ACD /* Info.plist */,
 			);
 			path = demoUITests;
-			sourceTree = "<group>";
-		};
-		436F40871EA98B1E00FA5ACD /* SeparatorLine */ = {
-			isa = PBXGroup;
-			children = (
-				436F40881EA98B5000FA5ACD /* SeparatorLine.swift */,
-			);
-			path = SeparatorLine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436F40891EA98B5000FA5ACD /* SeparatorLine.swift in Sources */,
+				436F40C91EA997A100FA5ACD /* SeparatorLine.swift in Sources */,
 				436F405C1EA98B0F00FA5ACD /* ViewController.swift in Sources */,
 				436F405A1EA98B0F00FA5ACD /* AppDelegate.swift in Sources */,
 			);
@@ -526,6 +518,7 @@
 				436F40801EA98B1000FA5ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436F40811EA98B1000FA5ACD /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +527,7 @@
 				436F40831EA98B1000FA5ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436F40841EA98B1000FA5ACD /* Build configuration list for PBXNativeTarget "demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +536,7 @@
 				436F40861EA98B1000FA5ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
